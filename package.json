@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "yarn watch-client & yarn watch-server",
+    "watch-server": "node src/server.js",
+    "watch-client": "yarn poi src/client.js --serve"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.11",
+    "poi": "^12.7.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
