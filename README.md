@@ -1,7 +1,7 @@
 # ToDo List
 
 
-### Create a Todo list single page application usign React. 
+### Create a Todo list single page application using React. 
 
 The project consists of an express route in `server.js` and a react client in `client.js`.
 
